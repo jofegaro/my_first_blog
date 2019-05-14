@@ -10,8 +10,21 @@
 <tr><td>2</td><td>distancia 2</td><td>tiempo 2</td><td>fecha 2</td></tr>
 </table>
 </div>
-<div>
+<!--<div>
+<br>
+<br>
 <p>creado por johan garcia el 13/05/2019</p>
-</div>
+</div>-->
+<br>
+<!-<QuerySet [<Post: creado por>, <Post: johan garcia el 13/05/2019>]>-->
+<br>
+<br>
+{{ post }} creado por johan garcia el 13/05/2019 {{ post }}
+<br>
+<br>
+{ % for post in posts % }
+	{{ post }}
+{ % endfor % }
+
 </body>
 </html>
